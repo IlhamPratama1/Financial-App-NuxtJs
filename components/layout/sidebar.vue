@@ -15,7 +15,7 @@
           </div>
           <div class="text-center">
             <h4 class="font-bold text-xl text-black-m">Ilham Pratama</h4>
-            <p class="font-sm text-base text-neutral-500">Software Engineer</p>
+            <p class="font-sm text-base text-black-m">Software Engineer</p>
           </div>
         </div>
         <div class="w-full h-px bg-black-m opacity-5"></div>
@@ -62,7 +62,7 @@ export default {
   methods: {
     selectedRouteStyle(route: string): string {
       if (route === this.$route.name) return "font-bold text-md text-black-m";
-      else return "font-medium text-md text-neutral-400";
+      else return "font-bold text-md text-gray-s";
     },
   },
 };

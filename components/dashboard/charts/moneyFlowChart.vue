@@ -107,21 +107,21 @@ export default {
           y: [
             {
               title: {
-                formatter: function (val: any) {
+                formatter: function (val: string) {
                   return val + " (mins)";
                 },
               },
             },
             {
               title: {
-                formatter: function (val: any) {
+                formatter: function (val: string) {
                   return val + " per session";
                 },
               },
             },
             {
               title: {
-                formatter: function (val: any) {
+                formatter: function (val: string) {
                   return val;
                 },
               },

@@ -13,15 +13,21 @@ export default {
   props: {
     dataseries: {
       type: Array,
-      default: [30, 40, 25, 50, 49, 21, 70, 51],
+      default: () => {
+        return [30, 40, 25, 50, 49, 21, 70, 51];
+      },
     },
     xaxis: {
       type: Array,
-      default: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      default: () => {
+        return ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+      },
     },
     colors: {
       type: Array,
-      default: ["#9DC9A8"],
+      default: () => {
+        return ["#9DC9A8"];
+      },
     },
     prefix: {
       type: String,

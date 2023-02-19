@@ -74,39 +74,14 @@
 </template>
 
 <script lang="ts">
-import {
-  Square3Stack3DIcon,
-  EllipsisVerticalIcon,
-  ArrowUpIcon,
-  ChevronRightIcon,
-  ChevronLeftIcon,
-  ArrowsRightLeftIcon,
-  CreditCardIcon,
-} from "@heroicons/vue/24/solid";
+import { EllipsisVerticalIcon, ArrowUpIcon } from "@heroicons/vue/24/solid";
 import OverviewChart from "~/components/dashboard/charts/overviewChart.vue";
-import MoneyFlowChart from "~/components/dashboard/charts/moneyFlowChart.vue";
-import CategoriesBar from "~/components/dashboard/charts/categoriesBar.vue";
-import MyCards from "~/components/dashboard/myCards.vue";
-import Balances from "~/components/dashboard/balances.vue";
-import MoneyFlow from "~/components/dashboard/moneyFlow.vue";
-import word from "~/mixins/word";
 
 export default {
-  mixins: [word],
   components: {
-    MyCards,
-    Balances,
-    MoneyFlow,
-    Square3Stack3DIcon,
     EllipsisVerticalIcon,
     ArrowUpIcon,
     OverviewChart,
-    MoneyFlowChart,
-    CategoriesBar,
-    ChevronRightIcon,
-    ChevronLeftIcon,
-    ArrowsRightLeftIcon,
-    CreditCardIcon,
   },
 };
 </script>
